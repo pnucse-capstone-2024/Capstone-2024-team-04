@@ -1,8 +1,7 @@
-![시스템구성도 drawio](https://github.com/user-attachments/assets/d1e93042-a5f8-4f36-b381-5391f0a5f0d4)# 수어비전(Sign Language Vision)
+# 수어비전(Sign Language Vision)
 
-<div align="center">
-  <img src="/api/placeholder/800/200" alt="프로젝트 배너 이미지" />
-</div>
+![수어비전](https://github.com/user-attachments/assets/e12f8c73-d145-4a19-946e-774414f3a974)
+
 
 ## 1. 프로젝트 소개
 
@@ -24,10 +23,8 @@
 
 ### 2.1. 시스템 구성도
 
-<div align="center">
-  <img src="/api/placeholder/800/400" alt="시스템 구성도" />
-  <p><em>시스템 구성도</em></p>
-</div>
+![시스템구성도 drawio](https://github.com/user-attachments/assets/f44e1988-88b9-48c1-8fd7-6e81b3496773)
+
 
 ### 2.2. 사용 기술
 
@@ -66,10 +63,7 @@ pip install -r requirements.txt
 
 ## 4. 소개 및 시연 영상
 
-<div align="center">
-  <img src="/api/placeholder/800/400" alt="시연 영상 썸네일" />
-  <p><em>프로젝트 시연 영상</em></p>
-</div>
+[![2024년 전기 졸업과제 04 수어비전](http://img.youtube.com/vi/jNpjqRoLIwE/0.jpg)](https://www.youtube.com/watch?v=jNpjqRoLIwE) 
 
 ## 주요 기능
 
@@ -92,11 +86,11 @@ pip install -r requirements.txt
 
 ### 팀명: 팀 수어비전 (Team Sign Language Vision)
 
-| 이름 | 역할 | 담당 업무 | 연락처 |
-|------|------|-----------|---------|
-|      |      |           |         |
-|      |      |           |         |
-|      |      |           |         |
+| 이름 | 역할 | 담당 업무 |
+|------|------|-----------|
+|   허재성   |   팀장   |   AI 모델 학습   |
+|   한지석   |   팀원   |   AI 모델 학습   |
+|   김민혁   |   팀원   |   애플리케이션 제작   |
 
 ## 라이센스
 
