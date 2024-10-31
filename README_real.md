@@ -1,4 +1,4 @@
-# 수어비전(Sign Language Vision)
+![시스템구성도 drawio](https://github.com/user-attachments/assets/d1e93042-a5f8-4f36-b381-5391f0a5f0d4)# 수어비전(Sign Language Vision)
 
 <div align="center">
   <img src="/api/placeholder/800/200" alt="프로젝트 배너 이미지" />
@@ -8,14 +8,16 @@
 
 ### 1.1. 배경 및 필요성
 
-농인들을 대상으로 한 설문조사 결과, 일상생활에서 가장 큰 어려움을 겪는 상황이 교통 수단 이용인 것으로 나타났습니다. 특히 버스나 지하철과 같은 대중교통보다 택시 이용 시 의사소통의 어려움이 더욱 큰 것으로 확인되었습니다.
+‘부산광역시 농아인 협회’의 자문 결과에 따르면, 청각장애인이 한글 독해 능력이 부족하여 수어에 의존하는 의사소통 방식을 사용하고 있습니다. 이는 청각장애인이 비장애인과 의사소통을 할 때 많은 장벽을 느끼고 있음을 의미합니다. 또한, 길 찾기, 관공서 방문, 의료기관 이용 등 대중교통을 이용해야 하는 상황에서 특히 많은 불편함을 호소하는 것으로 나타났습니다.
 
-이러한 문제를 해결하기 위해 비전 인식 기술을 활용한 수어 통역 애플리케이션의 개발이 필요합니다.
+
+ 이러한 문제를 해결하기 위해 저희 수어비전 팀에서는, 비전 인식 기술을 활용한 수어 번역 애플리케이션 개발에 나섰습니다. 많은 교통 상황 중에서도 버스, 지하철, 비행기 등과 달리 노선이 정해지지 않은 택시 이용 상황에 초점을 맞추었으며, 청각장애인도 쉽게 사용할 수 있도록 직관적인 애플리케이션을 개발하기 위에 노력했습니다.
 
 ### 1.2. 목표 및 주요 내용
 
 - 택시 이용 시 농인들의 원활한 의사소통을 지원하는 수어 인식 애플리케이션 개발
 - 실시간 수어 동작 인식 및 텍스트 변환 서비스 제공
+- 택시 기사와의 원활한 의사소통을 위해 음성 출력 기능을 탑재
 - [AI Hub의 수어 영상 데이터셋](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=103)을 활용한 정확하고 신뢰성 있는 번역 시스템 구현
 
 ## 2. 상세설계
@@ -32,7 +34,6 @@
 #### Backend & AI
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![PythonAnywhere](https://img.shields.io/badge/pythonanywhere-%232F9FD7.svg?style=for-the-badge&logo=pythonanywhere&logoColor=151515)
 
 #### Frontend
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
