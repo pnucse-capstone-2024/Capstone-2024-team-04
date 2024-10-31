@@ -1,6 +1,8 @@
 # 수어비전(Sign Language Vision)
 
-![수어비전](https://github.com/user-attachments/assets/e12f8c73-d145-4a19-946e-774414f3a974)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e12f8c73-d145-4a19-946e-774414f3a974" alt="수어비전">
+</div>
 
 
 ## 1. 프로젝트 소개
@@ -19,18 +21,31 @@
 - 택시 기사와의 원활한 의사소통을 위해 음성 출력 기능을 탑재
 - [AI Hub의 수어 영상 데이터셋](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=103)을 활용한 정확하고 신뢰성 있는 번역 시스템 구현
 
-## 2. 상세설계
 
-### 2.1. 시스템 구성도
+## 2. 팀 소개
 
-![시스템구성도 drawio](https://github.com/user-attachments/assets/f44e1988-88b9-48c1-8fd7-6e81b3496773)
+| 이름 | 역할 | 담당 업무 |
+|------|------|-----------|
+|   허재성   |   팀장   |   AI 모델 학습   |
+|   한지석   |   팀원   |   AI 모델 학습   |
+|   김민혁   |   팀원   |   애플리케이션 제작   |
 
 
-### 2.2. 사용 기술
+## 3. 상세설계
+
+### 3.1. 시스템 구성도
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f44e1988-88b9-48c1-8fd7-6e81b3496773" alt="시스템구성도 drawio">
+</p>
+
+
+### 3.2. 사용 기술
 
 #### Backend & AI
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 #### Frontend
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
@@ -40,58 +55,43 @@
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white)
 
-## 3. 설치 및 사용 방법
 
-### 요구사항
+## 4. 설치 및 사용 방법
 
+#### 설치 방법
+### 레포지토리 클론
 ```bash
-# 필요한 환경
-- Python 3.8+
-- Android Studio
-- Visual Studio Code
+# 앱 레포지토리 클론
+git clone https://github.com/kyleidea1/sign-language-translator-app.git
+
+# 서버 레포지토리 클론
+git clone https://github.com/kyleidea1/sign-language-translator-server.git
 ```
 
-### 설치 방법
+### 앱 빌드
+- Android Studio에서 `sign-language-translator-app` 프로젝트를 빌드합니다.
 
+### 서버 애플리케이션 실행
 ```bash
-# 레포지토리 클론
-git clone [repository URL]
-
-# 필요한 패키지 설치
-pip install -r requirements.txt
+# 서버 디렉토리로 이동
+cd sign-language-translator-server
+# Docker 컨테이너 실행
+sudo docker-compose up
 ```
 
-## 4. 소개 및 시연 영상
+### 앱 카메라 권한 확인
+- 앱 최초 실행 시 카메라 접근 권한을 요청합니다.
+- 권한이 거부된 경우, 브라우저 설정에서 카메라 권한을 허용해주시기 바랍니다.
 
-[![2024년 전기 졸업과제 04 수어비전](http://img.youtube.com/vi/jNpjqRoLIwE/0.jpg)](https://www.youtube.com/watch?v=jNpjqRoLIwE) 
+### 수어 영상 녹화 및 번역 결과 확인
+- 녹화 버튼을 눌러 수어 동작을 녹화합니다.
+- 녹화 완료 후 자동으로 번역이 시작되며 결과가 화면에 표시됩니다.
 
-## 주요 기능
 
-### 수어 인식
-- 실시간 카메라 입력을 통한 수어 동작 인식
-- 높은 정확도와 신속한 인식 처리
-- 다양한 수어 동작에 대한 인식 지원
+## 5. 시연 영상
 
-### 텍스트 변환
-- 인식된 수어의 실시간 텍스트 변환
-- 사용자 친화적인 텍스트 출력
-- 신속한 응답 시간
-
-### 시스템 성능
-- 실시간 처리 및 최소화된 지연 시간
-- 높은 인식 정확도
-- 안정적인 시스템 운영
-
-## 5. 팀 소개
-
-### 팀명: 팀 수어비전 (Team Sign Language Vision)
-
-| 이름 | 역할 | 담당 업무 |
-|------|------|-----------|
-|   허재성   |   팀장   |   AI 모델 학습   |
-|   한지석   |   팀원   |   AI 모델 학습   |
-|   김민혁   |   팀원   |   애플리케이션 제작   |
-
-## 라이센스
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=jNpjqRoLIwE">
+    <img src="http://img.youtube.com/vi/jNpjqRoLIwE/0.jpg" alt="2024년 전기 졸업과제 04 수어비전">
+  </a>
+</p>
